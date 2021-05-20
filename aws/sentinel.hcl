@@ -9,4 +9,8 @@ module "tfplan-functions" {
 module "tfrun-functions" {
   source = "https://raw.githubusercontent.com/hashicorp/terraform-guides/master/governance/third-generation/common-functions/tfrun-functions/tfrun-functions.sentinel"
 }
+    
+module "aws-functions" {
+  source = "https://raw.githubusercontent.com/hashicorp/terraform-guides/master/governance/third-generation/common-functions/tfrun-functions/tfrun-functions.sentinel"
+}
 
